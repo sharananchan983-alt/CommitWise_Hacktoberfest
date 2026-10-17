@@ -162,9 +162,7 @@ files that likely caused them.
 - A pre-commit hook and a GitHub Action
 - A benchmark of reviewer suggestions against real past reviewers
 
-## Team
 
-- Aneesh Suvarna ([@suvarnaaneesh07](https://github.com/suvarnaaneesh07)) - NMAM Institute of Technology
 
 ## License
 

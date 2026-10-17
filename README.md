@@ -147,23 +147,6 @@ author-side workflow, runs before the commit instead of after the pull request,
 shows the evidence behind every claim, and links screenshot changes to the code
 files that likely caused them.
 
-## Limitations
-
-- Symbol analysis and caller lookup cover Python only, and are name-based
-- The honesty check catches unsupported files, functions and citations, not every
-  kind of wrong claim
-- Reviewer suggestions come from blame history only, not from review activity
-- Screenshot analysis depends on image quality and can miss subtle changes
-
-## Roadmap
-
-- More languages (JavaScript and TypeScript) for symbols and callers
-- Automatic before/after screenshot capture
-- A pre-commit hook and a GitHub Action
-- A benchmark of reviewer suggestions against real past reviewers
-
-
-
 ## License
 
 MIT, see [LICENSE](LICENSE).
